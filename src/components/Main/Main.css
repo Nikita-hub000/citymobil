@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    grid-area: main;
+}
+
+.main__box {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.main__button {
+    align-items: center;
+    background: #7B8395;
+    min-height: 42px;
+    width: 171px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+.main__input {
+    background-image: url('../../img/search.png');
+    background-repeat: no-repeat;
+    /*Убираем повтор изображения*/
+    background-position: 16px;
+    /*Позиционируем*/
+    outline: none;
+    min-height: 42px;
+    width: 988px;
+}
+
+.main__input::placeholder {
+    padding-left: 40px;
+}
+
+table {
+    width: 1137px;
+    margin-top: 16px;
+    border-collapse: collapse;
+    max-height: 648px;
+    overflow: scroll;
+}
+
+table th {
+    background: rgba(240, 242, 244, 0.5);
+    box-shadow: inset -1px 0px 0px rgba(198, 209, 221, 0.5);
+    text-align: center;
+    border: 1px solid grey;
+    min-width: 193px;
+    height: 48px;
+}
+
+table td {
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px rgba(198, 209, 221, 0.5);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    border: 1px solid grey;
+    /* identical to box height, or 123% */
+    min-width: 193px;
+    height: 48px;
+    /* #1F232E */
+    color: #1F232E;
+    text-align: center;
+}

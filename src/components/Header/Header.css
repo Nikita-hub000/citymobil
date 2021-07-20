@@ -1,0 +1,13 @@
+header{
+    background: #F2F3F4;
+    margin: 0;
+    grid-area: hd;
+
+}
+header h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #707070;
+}
