@@ -56,6 +56,8 @@ class Main extends React.Component {
   find(e){
     console.log(e.target.value)
     this.setState({results : this.state.items})
+    e.target.value.length === 0 ? document.querySelector('.main__input').classList.add('main__input-find') : document.querySelector('.main__input').classList.remove('main__input-find') 
+    
     this.setState({
       value: e.target.value
     })
@@ -68,13 +70,6 @@ class Main extends React.Component {
     })
 
     this.setState({results: a})
-    // e.target.value.length === 0 ? this.setState({results : this.state.items}) : this.setState({results: a})
-    // if(e.target.value.length > 0){
-    //   this.setState({items: this.state.results})
-    // }
-    // else{
-    //   this.setState({items: this.state.items})
-    // }
   
 
   }
@@ -88,7 +83,7 @@ class Main extends React.Component {
     return (
       <main>
         <form className="main__box" onSubmit={this.handleSubmit}>
-          <input placeholder="Поиск" className="main__input" type="text" onChange={this.find} />
+          <input placeholder="Поиск" className="main__input main__input-find" type="text" onChange={this.find} />
           <button type='submit' className="main__button">Найти</button>
         </form>
         <table>
