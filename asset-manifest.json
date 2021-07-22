@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/citymobil/static/css/main.1a9a8ead.chunk.css",
-    "main.js": "/citymobil/static/js/main.1e0009b9.chunk.js",
-    "main.js.map": "/citymobil/static/js/main.1e0009b9.chunk.js.map",
+    "main.css": "/citymobil/static/css/main.08d8329f.chunk.css",
+    "main.js": "/citymobil/static/js/main.f390d45a.chunk.js",
+    "main.js.map": "/citymobil/static/js/main.f390d45a.chunk.js.map",
     "runtime-main.js": "/citymobil/static/js/runtime-main.dde6080f.js",
     "runtime-main.js.map": "/citymobil/static/js/runtime-main.dde6080f.js.map",
     "static/css/2.679831fc.chunk.css": "/citymobil/static/css/2.679831fc.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3f5e57ea.chunk.js.map": "/citymobil/static/js/2.3f5e57ea.chunk.js.map",
     "index.html": "/citymobil/index.html",
     "static/css/2.679831fc.chunk.css.map": "/citymobil/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.1a9a8ead.chunk.css.map": "/citymobil/static/css/main.1a9a8ead.chunk.css.map",
+    "static/css/main.08d8329f.chunk.css.map": "/citymobil/static/css/main.08d8329f.chunk.css.map",
     "static/js/2.3f5e57ea.chunk.js.LICENSE.txt": "/citymobil/static/js/2.3f5e57ea.chunk.js.LICENSE.txt",
     "static/media/index.css": "/citymobil/static/media/IBMPlexMono-Medium.92630f64.ttf"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.dde6080f.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.3f5e57ea.chunk.js",
-    "static/css/main.1a9a8ead.chunk.css",
-    "static/js/main.1e0009b9.chunk.js"
+    "static/css/main.08d8329f.chunk.css",
+    "static/js/main.f390d45a.chunk.js"
   ]
 }
