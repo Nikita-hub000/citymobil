@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+***
+actual version is [1.1.0](https://nikita-hub000.github.io/citymobil/)
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
