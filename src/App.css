@@ -1,17 +1,5 @@
-/* #root {
-  height: 100%;
-} */
-
-.App {
-  /* margin: 0;
-  color: #fff;
-  /* Растягиваем body по высоте html 
-  min-height: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-template-areas:
-    "hd hd hd hd"
-    "sd main main main"
-    "ft ft ft ft"; */
+.App__box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

@@ -3,13 +3,13 @@
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    grid-area: sd;
-
+    height: inherit;
 }
 
 .sidebar h1 {
     display: block;
     color: black;
-    padding: 16px;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
   }

@@ -1,13 +1,16 @@
-header{
-    background: #F2F3F4;
+footer{
+    background: #D4D5D6;
     margin: 0;
-    height: 128px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-header h1{
+
+footer h1{
     font-style: normal;
     font-weight: normal;
     font-size: 36px;

@@ -2,13 +2,19 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    grid-area: main;
+    margin-top: 32px;  
+    padding-bottom: 60px;
 }
 
 .main__box {
     display: flex;
     flex-direction: row;
+}
 
+.main__sorted {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 
 }
 
@@ -28,9 +34,7 @@ main {
 .main__input {
     background-image: url('../../img/search.png');
     background-repeat: no-repeat;
-    /*Убираем повтор изображения*/
     background-position: 16px;
-    /*Позиционируем*/
     outline: none;
     min-height: 42px;
     width: 988px;
@@ -44,8 +48,9 @@ table {
     width: 1137px;
     margin-top: 16px;
     border-collapse: collapse;
-    max-height: 648px;
-    overflow: scroll;
+    height: 648px;
+    overflow-x: auto;
+  
 }
 
 table th {
@@ -65,10 +70,26 @@ table td {
     font-size: 13px;
     line-height: 16px;
     border: 1px solid grey;
-    /* identical to box height, or 123% */
     min-width: 193px;
     height: 48px;
-    /* #1F232E */
+
     color: #1F232E;
     text-align: center;
+}
+
+.main__current {
+    background: rgba(240, 242, 244, 0.5);
+    border: 1px solid #DEE5EB;
+    box-sizing: border-box;
+    box-shadow: inset -1px 0px 0px rgba(198, 209, 221, 0.5);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 13px;
+    padding-left: 16px;
+    color: #7B8395;
+    height: 42px;
+    width: 1177px;
+    margin-top: 16px;
 }
